@@ -16,6 +16,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.km00776.liveWidgetSample"
     },
+    "plugins": [["@bacons/apple-targets", {}]],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -26,6 +27,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
+
     "extra": {
       "eas": {
         "projectId": "78b1a5cc-9ad2-4049-b6c8-c8ebc4f2f09c"
