@@ -8,7 +8,8 @@ node_modules/
 dist/
 web-build/
 expo-env.d.ts
-
+.yarn/*
+settings.json
 # Native
 *.orig.*
 *.jks
@@ -16,7 +17,8 @@ expo-env.d.ts
 *.p12
 *.key
 *.mobileprovision
-
+/ios
+/android
 # Metro
 .metro-health-check*
 
